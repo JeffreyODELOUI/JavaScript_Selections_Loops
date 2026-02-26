@@ -84,7 +84,7 @@ for(let i= start; i<= no; i++){
     if(i % fizzDivisor === 0 && i % buzzDivisor === 0){
         console.log("FIZZBUZZ");
     }
-    else if(i % fizzDivisor === 1){
+    else if(i % fizzDivisor === 0){
         console.log("FIZZ");
     }
     else if(i % buzzDivisor === 0){
