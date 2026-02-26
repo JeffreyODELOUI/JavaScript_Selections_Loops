@@ -66,7 +66,7 @@ do{
 //Exercise 4:
 let value = Math.round((Math.random() * 500));
 let n = Math.round(Math.random() * (500 - 100) + 100);
-for(let i=0; i<n; i++){
+for(let i=0; i<= n; i++){
     if(i === value){
         console.log("Found value\n");
         break;
